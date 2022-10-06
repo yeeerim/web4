@@ -12,7 +12,7 @@ $(function(){
 
     // lang
     $('.lang').click(function(){
-        $('.list').slideToggle()
+        $('.lang .list').stop().slideToggle()
     })
 
     // main slide
@@ -67,7 +67,7 @@ $(function(){
 
     // family site
     $('.family').click(function(){
-        $('.family_list').slideToggle()
+        $('.family_list').stop().slideToggle()
         $('.family').toggleClass('on')
     })
 
